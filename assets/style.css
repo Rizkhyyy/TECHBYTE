@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.hero-section {
+    height: 100vh;
+   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("https://www.techpowerup.com/img/vUKTPANdcCbQqnTt.jpg");
+   background-position: fixed;
+   background-size: cover;
+   backdrop-filter: brightness(100%);
+   background-position: center;
+   background-repeat: no-repeat;
+   position: relative;
+}
+
+.product-card {
+    transition: 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 25px rgba(0, 123, 255, 0.5);
+}
+
+.btn-primary {
+    border: none;
+}
+
+.card-title {
+   color: white;
+}
+
+p {
+    color: #c8c8c8;
+}
+
+.navbar {
+    transition: 0.3s;
+}
+
+.navbar.scrolled {
+    background-color: rgba(0, 0, 0, 0.9) !important;
+}
